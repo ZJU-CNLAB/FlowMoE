@@ -26,9 +26,6 @@ from skopt.space import Real
 from skopt.utils import use_named_args
 from scipy.interpolate import Rbf, interp1d
 
-os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"  # see issue #152
-os.environ["CUDA_VISIBLE_DEVICES"] = "5,6"
-
 def writeFile_add(filename, data):
     file_handle = open(filename, mode='a')
     file_handle.write(data)
