@@ -1,7 +1,7 @@
 # FlowMoE: A Scalable Pipeline Scheduling Framework for Distributed Mixture-of-Expert Training #  
 ## Introduction ##
 This repository contains the codes of the FlowMoE paper submitted to *NeurIPS 2025*. FlowMoE is a scalable, generic and user-friendly pipeline scheduling framework for accelerating the training of MoE models. FlowMoE outperforms the state-of-the-art scheduling frameworks, including [ScheMoE](https://github.com/Fragile-azalea/ScheMoE), [Tutel](https://github.com/microsoft/tutel) and [FasterMoE](https://github.com/thu-pacman/FasterMoE).  
-<div align=center><img src="workflow_nips.png" width="500"/></div> 
+<div align=center><img src="workflow_nips.png" width="700"/></div> 
 
 ## Installation ##
 ### Prerequisites ###
